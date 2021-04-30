@@ -1,0 +1,3 @@
+1. db.posts.find().skip(5);
+2. db.posts.find({properties.like: {$gt: 100}});
+3. db.posts.insertOne({"groups": {"group": 1}});

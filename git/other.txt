@@ -1,0 +1,11 @@
+1. git checkout dev // переключаемся на ветку dev
+2. touch Readme.md && cat >> Readme.md 
+### May be in future
+^D
+// создаем на ветке dev в корне фйл Readme.md и записываем в него нужный нам текст. ^D - «CTRL-D» для завершения записи в файл.
+3. git add . // добавляет содержимое рабочей директории в индекс
+   git status // проверяем что изменилось после инициализации и добавления файлов в индекс
+   git commit -m "First commit" // делаем коммит
+   git remote add origin git@example.com:example/test.git // создаем удаленный репозиторий
+   git push -u origin dev // заливаем изменения на ветку dev		
+
